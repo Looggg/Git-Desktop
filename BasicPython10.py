@@ -20,7 +20,7 @@ class Employee:
     
     #แปรง object -> String
     def __str__(self):
-        return ("ชื่อพนักงาน")
+        return ("ชื่อพนักงาน = {} , แผนก = {} , เงินเดือน = {}".format(self.__name, self._department, self.__salary))
 
 #สร้าง class สึบทอดคุณสมบัติ
 class Accounting(Employee):
@@ -41,9 +41,12 @@ class Sale(Employee):
         super().__init__(name,salary,self.__departmentName) #สังเกต self ใส่แค่ตรง department
 
 account = Accounting("ควย",100)
-account._showData()
+programmer = Programmer("ooo",200)
+sale = Sale("baba",300)
+
+print(account.__str__())
+print(programmer.__str__())
+print(sale.__str__())
 # print("รายได้ต่อปี = {}".format(account._getIncome()))
-# programmer = Programmer("ooo",200)
 # print("รายได้ต่อปี = {}".format(programmer._getIncome()))
-# sale = Sale("baba",300)
 # print("รายได้ต่อปี = {}".format(sale._getIncome()))
