@@ -40,7 +40,7 @@ class Sale(Employee):
     def __init__(self,name,salary):
         super().__init__(name,salary,self.__departmentName) #สังเกต self ใส่แค่ตรง department
 
-account = Accounting("ควย",100)
+account = Accounting("loog",100)
 programmer = Programmer("ooo",200)
 sale = Sale("baba",300)
 

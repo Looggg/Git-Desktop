@@ -46,4 +46,4 @@ account = Accounting("loog",100)
 programmer = Programmer("ooo",200)
 sale = Sale("baba",300)
 
-account._showData()
+# account._showData()
