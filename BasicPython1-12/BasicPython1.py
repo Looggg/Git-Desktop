@@ -16,4 +16,5 @@ obj2= Employee()
 obj2.detail("Bon",200)
 
 obj1.showData()
-obj2.showData() 
+obj2.showData()
+

@@ -26,4 +26,4 @@ obj3.showData()
 
 print(isinstance(obj1,Employee)) #เช็คว่า object นี้ถูกสร้างจาก class ที่เรานิยามไหม
 print(dir(obj1)) #แสดง Attribute และ Method
-print(obj1.__class__) #แสดงชื่อ class ของ object
+print(obj1.__class__) #แสดงชื่อ class ของ object 
