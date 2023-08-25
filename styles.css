@@ -1,0 +1,44 @@
+/* CSS สำหรับการแสดงวิดีโอ */
+
+.video-container {
+    max-width: 100%;
+    position: relative;
+  }
+  
+  /* CSS สำหรับการแสดง Plyr player */
+  .plyr {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* CSS สำหรับปรับแต่งสีของเครื่องเล่น Plyr */
+  .plyr--video .plyr__control--overlaid {
+    color: #fff;
+  }
+  
+  .plyr__control.plyr__tab-focus,
+  .plyr__control:hover,
+  .plyr--video .plyr__control.plyr__tab-focus,
+  .plyr--video .plyr__control:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* CSS สำหรับปรับแต่งสีของปุ่ม Play/Pause */
+  .plyr__control--overlaid:not(.plyr__tab-focus):hover,
+  .plyr__control--overlaid[aria-expanded="true"] {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* CSS สำหรับปรับแต่งสีของ progress bar */
+  .plyr__progress--played,
+  .plyr__volume--display {
+    background-color: #f44336; /* เปลี่ยนสีตามที่คุณต้องการ */
+  }
+  
+  /* CSS สำหรับปรับแต่งสีของปุ่ม Fullscreen */
+  .plyr__control--fullscreen:hover,
+  .plyr__control.plyr__tab-focus--focus,
+  .plyr__control.plyr__tab-focus:focus {
+    color: #f44336; /* เปลี่ยนสีตามที่คุณต้องการ */
+  }
+  

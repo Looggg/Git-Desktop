@@ -16,3 +16,6 @@ def shownumber():
     return 500
 x=shownumber
 """
+
+# Arguments => ค่าที่ส่งเข้าไปใน Function
+# Parameter => ค่าตัวแปรที่รับข้อมูลที่ส่งเข้ามาทำงาน 

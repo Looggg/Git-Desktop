@@ -82,7 +82,8 @@ print(x)
 print(y)
 """
 
-"""
+
+
 # การ sort ข้อมูล
 tup=(12,42,3.442,4,1,2,6,5,11,224,532)
 lis=list(tup)
@@ -90,7 +91,7 @@ print("ก่อนเรียง = ", lis)
 lis.sort()
 tup=tuple(lis)
 print("หลังเรียง = ", tup)
-"""
+
 
 
 

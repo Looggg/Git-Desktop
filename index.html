@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>แสดง Livestream</title>
+  <!-- เรียกใช้ไฟล์ CSS ของ Plyr -->
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css">
+  <!-- เรียกใช้ไฟล์ CSS ของคุณ (ถ้ามี) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ส่วนของตัวเล่นวิดีโอ -->
+  <div class="video-container">
+    <video id="player" controls crossorigin playsinline>
+      <source src="http://127.0.0.1:5500/index.html" type="application/x-mpegURL">
+      Your browser does not support HTML video.
+    </video>
+  </div>
+
+  <!-- เรียกใช้ไฟล์ JavaScript ของ Plyr -->
+  <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+  <!-- เรียกใช้ไฟล์ JavaScript ของคุณ (ถ้ามี) -->
+  <script src="script.js"></script>
+
+  <script>
+    // เริ่มต้น Plyr เมื่อหน้าเว็บโหลดเสร็จแล้ว
+    document.addEventListener('DOMContentLoaded', () => {
+      const player = new Plyr('#player');
+    });
+  </script>
+</body>
+</html>

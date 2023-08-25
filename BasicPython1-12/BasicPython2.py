@@ -21,3 +21,4 @@ obj2.showData()
 obj3 = Employee("Baba",300)
 obj3.showData()
 
+print(obj3)
